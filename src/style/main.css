@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/ef37b87c7acb32300475648de8a70607.gif");
+    background-size: cover; /* Para garantir que o fundo cubra toda a tela */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 5px solid #ffd700;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #7fffd4;
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Estilos para cada inimigo com diferentes imagens */
+.enemy1 {
+    background-image: url("../img/inimigoteste.png");
+}
+
+.enemy2 {
+    background-image: url("../img/1 (2).png");
+}
+
+.enemy3 {
+    background-image: url("../img/2 (2).png");
+}
+
+.enemy4 {
+    background-image: url("../img/3 (3).png");
+}
+
+.enemy5 {
+    background-image: url("../img/4 (2).png");
+}
+
+.enemy6 {
+    background-image: url("../img/1 (2).png");
+}
+
+.enemy7 {
+    background-image: url("../img/pngtree-pizza-pixel-png-image_6940675.png");
+}
+
+/* Estilo para a seção de vidas */
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second {
+    margin-top: 10px;
+}
